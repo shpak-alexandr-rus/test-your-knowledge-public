@@ -2,7 +2,7 @@
  * ToDo: Добавить описание
  * @return
  */
-package com.shpakalexandr.controllers;
+package com.shpakalexandr.tykapi.controllers;
 
 import static org.hamcrest.Matchers.containsString;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

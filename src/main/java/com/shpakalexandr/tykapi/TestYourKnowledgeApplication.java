@@ -2,7 +2,7 @@
  * ToDo: Добавить описание
  * @return
  */
-package com.shpakalexandr;
+package com.shpakalexandr.tykapi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
 /**
  * ToDo: Добавить описание
  */
-package com.shpakalexandr.controllers;
+package com.shpakalexandr.tykapi.controllers;
 
 import java.util.concurrent.TimeUnit;
 

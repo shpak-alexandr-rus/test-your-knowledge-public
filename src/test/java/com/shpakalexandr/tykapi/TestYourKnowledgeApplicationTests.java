@@ -1,7 +1,7 @@
 /**
  * ToDo: Добавить описание
  */
-package com.shpakalexandr;
+package com.shpakalexandr.tykapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

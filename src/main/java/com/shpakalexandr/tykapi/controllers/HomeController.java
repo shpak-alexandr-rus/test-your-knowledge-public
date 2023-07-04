@@ -1,7 +1,7 @@
 /**
  * ToDo: Добавить описание
  */
-package com.shpakalexandr.controllers;
+package com.shpakalexandr.tykapi.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
