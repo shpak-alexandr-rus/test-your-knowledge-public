@@ -1,3 +1,6 @@
+/**
+ * ToDo: Добавить коментарий
+ */
 package com.shpakalexandr.tykapi.repositories;
 
 import com.shpakalexandr.tykapi.entities.User;

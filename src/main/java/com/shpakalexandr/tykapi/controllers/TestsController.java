@@ -1,3 +1,6 @@
+/**
+ * ToDo: Добавить коментарий
+ */
 package com.shpakalexandr.tykapi.controllers;
 
 import org.springframework.stereotype.Controller;

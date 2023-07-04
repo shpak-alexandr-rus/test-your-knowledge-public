@@ -1,3 +1,4 @@
+-- Добавление в таблицу users пользователя, который будет владельцем системы (SYSTEM_OWNER)
 insert into users(
         "id",
         "first_name",

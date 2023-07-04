@@ -1,3 +1,6 @@
+/**
+ * ToDo: Добавить коментарий
+ */
 package com.shpakalexandr.tykapi.configs;
 
 import com.shpakalexandr.tykapi.services.UserService;

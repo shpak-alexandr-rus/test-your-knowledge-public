@@ -1,3 +1,4 @@
+-- Добавление в таблицу roles роли владельца системы (SYSTEM_OWNER)
 insert into roles(
         "id",
         "role_name"
@@ -6,6 +7,7 @@ insert into roles(
         'ROLE_SYSTEM_OWNER'
     );
 
+-- Добавление в таблицу roles роли администратора системы (SYSTEM_ADMIN)
 insert into roles(
         "id",
         "role_name"
@@ -14,6 +16,7 @@ insert into roles(
         'ROLE_SYSTEM_ADMIN'
     );
 
+-- Добавление в таблицу roles роли гостя (GUEST)
 insert into roles(
         "id",
         "role_name"
@@ -22,6 +25,8 @@ insert into roles(
         'ROLE_GUEST'
     );
 
+-- Добавление в таблицу users_roles записи, соответствующей присваиванию пользователю-владельцу системы
+-- (на данный момент единственному зарегистрированному пользователю) роли SYSTEM_OWNER
 insert into users_roles(
         "user_id",
         "role_id"

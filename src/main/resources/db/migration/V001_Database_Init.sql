@@ -5,7 +5,7 @@ set search_path to tyk_schema;
 create table if not exists users(
     "id" serial,                                   -- Колонка уникального идентификатора (главный ключ)
     "first_name" varchar(25) not null,             -- Колонка для хранения имени пользователя
-    "middle_name" varchar(25) null,                -- Колонка для хранения отчества пользователя
+    "middle_name" varchar(25) default null,        -- Колонка для хранения отчества пользователя
     "last_name" varchar(40) not null,              -- Колонка для хранения фамилии пользователя
     "account_name" varchar(50) not null,           -- Колонка для хранения имени учетной записи пользователя
     "account_description" varchar(2000) default null,  -- Колонка для хранения описания учетной записи пользователя

@@ -1,3 +1,6 @@
+/**
+ * ToDo: Добавить коментарий
+ */
 package com.shpakalexandr.tykapi.entities;
 
 import jakarta.persistence.Column;

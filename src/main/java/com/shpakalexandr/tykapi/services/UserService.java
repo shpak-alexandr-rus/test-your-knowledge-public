@@ -1,3 +1,6 @@
+/**
+ * ToDo: Добавить коментарий
+ */
 package com.shpakalexandr.tykapi.services;
 
 import com.shpakalexandr.tykapi.entities.Role;
