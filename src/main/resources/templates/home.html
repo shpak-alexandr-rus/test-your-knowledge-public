@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" 
+<html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org">
     <head>
         <title>Проект "Проверь Свои Знани"</title>
+        <link rel="icon" type="image/ico" th:href="@{/images/favicon.ico}">
     </head>
 
     <body>
         <h1 align="center">Добро пожаловать в проект "Проверь Свои Знания"!</h1>
-        <p style="text-align: center"><img align="center" th:src="@{/images/starling_home.jpg}"/></p>
+        <p style="text-align: center"><img align="center" src="" th:src="@{/images/starling_home.jpg}"/></p>
         <p align="center"><a th:href="@{/auth/login}">ВОЙТИ</a></p>
     </body>
 </html>
